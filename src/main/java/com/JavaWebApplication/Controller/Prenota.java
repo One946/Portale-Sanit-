@@ -55,7 +55,7 @@ public class Prenota extends HttpServlet {
 		prenotazione  = new PrenotaBean(nomePaziente,dataPrenotazione,genere,tipologiaVisita,codicePrenotazione);
 		String s1 = iu.InserPrenotazione(prenotazione);
 		if(s1 == " Prenotazione andata a buon fine") {			
-			response.sendRedirect("http://localhost:8080/Sample-WebApp/jsp/success.jsp");
+			response.sendRedirect("/Sample-WebApp/jsp/success.jsp");
 		}else {
 			out.println("ERRORE");
 		}

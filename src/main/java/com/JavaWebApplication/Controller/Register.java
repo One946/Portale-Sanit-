@@ -69,7 +69,7 @@ public class Register extends HttpServlet {
 		session.setAttribute("email",email);
 		session.setAttribute("password",password);
 		
-		response.sendRedirect("http://localhost:8080/Sample-WebApp/jsp/welcomeSignUp.jsp");
+		response.sendRedirect("/Sample-WebApp/jsp/welcomeSignUp.jsp");
 		}
 	}
 

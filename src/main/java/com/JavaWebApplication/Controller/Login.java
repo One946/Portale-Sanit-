@@ -64,7 +64,7 @@ public class Login extends HttpServlet {
 
 			session.setAttribute("password",user.getPassword());
 			
-			response.sendRedirect("http://localhost:8080/Sample-WebApp/jsp/welcome.jsp");
+			response.sendRedirect("/Sample-WebApp/jsp/welcome.jsp");
 		}
 		else {
 			out.println(" \n Errore!");

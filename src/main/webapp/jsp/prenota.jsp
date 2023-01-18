@@ -52,7 +52,7 @@
     </div>
   </nav>
 
-<form method="post" action="http://localhost:8080/Sample-WebApp/Prenota">
+<form method="post" action="Sample-WebApp/Prenota">
 <section class="h-100 h-custom" style="background-color: #8fc4b7;">
   <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">

@@ -51,7 +51,7 @@
       </div>
     </div>
   </nav>
-  
+
 <div class="container h-100">
   <div class="row d-flex justify-content-center align-items-center h-100">
     <div class="col-lg-12 col-xl-11">
@@ -62,7 +62,7 @@
 
               <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Form Di Registrazione</p>
 
-              <form class="mx-1 mx-md-4" method="post" action="http://localhost:8080/Sample-WebApp/Register">
+              <form class="mx-1 mx-md-4" method="post" action="/Sample-WebApp/Register">
 
                 <div class="d-flex flex-row align-items-center mb-4">
                   <i class="fas fa-user fa-lg me-3 fa-fw"></i>
