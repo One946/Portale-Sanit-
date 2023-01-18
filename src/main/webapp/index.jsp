@@ -72,7 +72,7 @@
 </nav>
 
      <main role="main" class="inner cover, description">
-        <h1 class="cover-heading" style="color:white">Benvenuto nel portale Sanità 18-01-2023</h1>
+        <h1 class="cover-heading" style="color:white">Benvenuto nel portale Sanità 9-01-2023</h1>
         <p class="lead" style="color:white">Registrati, effettua il login e prenota le tue visite</p>
         <p class="lead" style="color:white">
           <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
