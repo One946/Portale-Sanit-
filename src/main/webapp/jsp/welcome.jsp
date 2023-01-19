@@ -9,7 +9,7 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <title>Benvenuto!</title>
 </head>
-<body style="background-image: url('https://www.testreach.com/images/slider/swiper/medical.jpg');">
+<body >
 
 
 
@@ -65,7 +65,13 @@
 	String[] arrEmail = email.split(" ");
 	String[] arrPassword = password.split(" ");
 %>
-<h1 style="color:white">Benvenuta/o <%out.println(arrNome[2]+" "+ arrCognome[2]);%></h1>
+
+<div class="list-group" style="background-image: url('https://www.testreach.com/images/slider/swiper/medical.jpg');">
+  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+    <div class="d-flex w-100 justify-content-between">
+      <h1 style="color:white">Benvenuta/o <%out.println(arrNome[2]+" "+ arrCognome[2]);%></h1>
+  </a>
+</div>
 
 
 
